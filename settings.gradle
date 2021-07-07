@@ -1,0 +1,3 @@
+include ':qigsaw_feature'
+include ':app'
+rootProject.name = "奇艺插件化"
