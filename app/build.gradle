@@ -1,6 +1,6 @@
 apply plugin: 'com.android.application'
-apply plugin: 'com.iqiyi.qigsaw.application'
-
+//apply plugin: 'com.iqiyi.qigsaw.application'
+apply plugin: 'apkUploader'
 
 android {
     compileSdkVersion versions.compileSdk
@@ -48,7 +48,7 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-    implementation 'com.iqiyi.android.qigsaw:splitcore:1.4.0'
+    implementation 'com.iqiyi.android.qigsaw:splitcore:1.4.1-hotfix01'
     implementation 'androidx.multidex:multidex:2.0.0'
 }
 

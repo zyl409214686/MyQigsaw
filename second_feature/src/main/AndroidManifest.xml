@@ -4,6 +4,7 @@
     package="com.tyh.second_feature">
 
     <dist:module
+        dist:builtIn="false"
         dist:instant="false"
         dist:onDemand="true"
         dist:title="@string/title_second_feature">

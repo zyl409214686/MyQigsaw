@@ -70,22 +70,22 @@ public class MainActivity extends BaseActivity {
 
     //1.开始安装插件
     private void startQigsawInstaller(String moduleName) {
-        Intent intent = new Intent(this, QigsawInstaller.class);
+        Intent intent = new Intent(this, QigsawInstallerActivity.class);
         ArrayList<String> moduleNames = new ArrayList<>();
         moduleNames.add(moduleName);
-        intent.putStringArrayListExtra(QigsawInstaller.KEY_MODULE_NAMES, moduleNames);
-        startActivityForResult(intent, QigsawInstaller.INSTALL_REQUEST_CODE);
+        intent.putStringArrayListExtra(QigsawInstallerActivity.KEY_MODULE_NAMES, moduleNames);
+        startActivityForResult(intent, QigsawInstallerActivity.INSTALL_REQUEST_CODE);
     }
 
     //2.安装插件返回
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == QigsawInstaller.INSTALL_REQUEST_CODE) {
+        if (requestCode == QigsawInstallerActivity.INSTALL_REQUEST_CODE) {
             switch (resultCode) {
                 case RESULT_OK:
                     if (data != null) {
-                        ArrayList<String> moduleNames = data.getStringArrayListExtra(QigsawInstaller.KEY_MODULE_NAMES);
+                        ArrayList<String> moduleNames = data.getStringArrayListExtra(QigsawInstallerActivity.KEY_MODULE_NAMES);
                         if (moduleNames != null && moduleNames.size() == 1) {
                             loadAndLaunchModule(moduleNames.get(0));
                         }

@@ -33,7 +33,7 @@ import java.util.List;
 
 import androidx.annotation.Nullable;
 
-public class QigsawInstaller extends Activity {
+public class QigsawInstallerActivity extends Activity {
 
     private static final String TAG = "QigsawInstaller";
 
