@@ -5,9 +5,9 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath "com.android.tools.build:gradle:3.5.3"
+        classpath "com.android.tools.build:gradle:${AGP_VERSION}"
         //Qigsaw插件 https://github.com/iqiyi/Qigsaw/wiki#%E6%8E%A5%E5%85%A5%E6%AD%A5%E9%AA%A4
-        classpath 'com.iqiyi.android.qigsaw:gradle-plugin:1.4.1-hotfix01'
+        classpath "com.iqiyi.android.qigsaw:gradle-plugin:${VERSION_NAME}"
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
@@ -27,6 +27,7 @@ ext {
             'minSdk'    : 14,
             'targetSdk' : 28,
     ]
+    sample = true
 }
 
 task clean(type: Delete) {

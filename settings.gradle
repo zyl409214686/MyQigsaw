@@ -1,3 +1,5 @@
+include ':second_feature'
 include ':qigsaw_feature'
 include ':app'
+include ':downloader'
 rootProject.name = "奇艺插件化"
