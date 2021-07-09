@@ -27,7 +27,6 @@ ext {
             'minSdk'    : 14,
             'targetSdk' : 28,
     ]
-    sample = true
 }
 
 task clean(type: Delete) {
