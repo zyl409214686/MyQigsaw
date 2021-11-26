@@ -1,0 +1,25 @@
+com/iqiyi/qigsaw/sample/downloader/BuildConfig.java
+ com.iqiyi.qigsaw.sample.downloader.BuildConfig
+com/iqiyi/qigsaw/sample/downloader/OnBunchCancelListener.java
+ com.iqiyi.qigsaw.sample.downloader.OnBunchCancelListener
+com/iqiyi/qigsaw/sample/downloader/GroupDownloadTaskQueueListener.java
+ com.iqiyi.qigsaw.sample.downloader.GroupDownloadTaskQueueListener
+com/iqiyi/qigsaw/sample/downloader/GroupTaskDownloader.java
+ com.iqiyi.qigsaw.sample.downloader.GroupTaskDownloader
+ com.iqiyi.qigsaw.sample.downloader.GroupTaskDownloader$1
+ com.iqiyi.qigsaw.sample.downloader.GroupTaskDownloader$2
+ com.iqiyi.qigsaw.sample.downloader.GroupTaskDownloader$3
+ com.iqiyi.qigsaw.sample.downloader.GroupTaskDownloader$CallbackProgress
+com/iqiyi/qigsaw/sample/downloader/DeleteDownloadedFilesTask.java
+ com.iqiyi.qigsaw.sample.downloader.DeleteDownloadedFilesTask
+ com.iqiyi.qigsaw.sample.downloader.DeleteDownloadedFilesTask$DeleteFileFilter
+com/iqiyi/qigsaw/sample/downloader/GroupTaskDownloadCallBack.java
+ com.iqiyi.qigsaw.sample.downloader.GroupTaskDownloadCallBack
+com/iqiyi/qigsaw/sample/downloader/GroupDownloadContext.java
+ com.iqiyi.qigsaw.sample.downloader.GroupDownloadContext
+ com.iqiyi.qigsaw.sample.downloader.GroupDownloadContext$1
+ com.iqiyi.qigsaw.sample.downloader.GroupDownloadContext$2
+ com.iqiyi.qigsaw.sample.downloader.GroupDownloadContext$AlterContext
+ com.iqiyi.qigsaw.sample.downloader.GroupDownloadContext$Builder
+ com.iqiyi.qigsaw.sample.downloader.GroupDownloadContext$QueueAttachListener
+ com.iqiyi.qigsaw.sample.downloader.GroupDownloadContext$QueueSet

@@ -1,0 +1,35 @@
+plugins {
+    id 'com.android.dynamic-feature'
+    id 'com.iqiyi.qigsaw.dynamicfeature'
+}
+android {
+    compileSdkVersion versions.compileSdk
+
+    defaultConfig {
+        minSdkVersion versions.minSdk
+        targetSdkVersion versions.targetSdk
+        versionCode 1
+        versionName "1.0"
+    }
+
+    signingConfigs {//签名配置
+        config {
+            keyAlias 'wanshifu.master'
+            keyPassword 'nVRJGKzMhYxw7sxW7nYQpvGYj4f3ffc8'
+            storeFile file("${getProjectDir()}/wsf_jdy.keystore")
+            storePassword 'nVRJGKzMhYxw7sxW7nYQpvGYj4f3ffc8'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+    }
+}
+
+dependencies {
+    implementation project(":app")
+}

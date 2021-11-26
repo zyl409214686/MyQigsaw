@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">奇艺插件化</string>
+    <string name="title_qigsaw_feature">Module Title</string>
+    <string name="sample_warm_prompt">Warm Prompt</string>
+    <string name="sample_prompt_desc">Using this feature will consume about %s M traffic data, Do you want to continue downloading?</string>
+    <string name="sample_confirm">Confirm</string>
+    <string name="sample_cancel">Cancel</string>
+    <string name="title_second_feature">second_feature</string>
+</resources>
