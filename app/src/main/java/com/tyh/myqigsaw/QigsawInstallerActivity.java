@@ -60,7 +60,6 @@ public class QigsawInstallerActivity extends Activity {
     private boolean startInstallFlag;
 
     private final DecimalFormat decimalFormat = new DecimalFormat("#.00");
-
     private SplitInstallStateUpdatedListener myListener = new SplitInstallStateUpdatedListener() {
 
         @Override
@@ -70,6 +69,7 @@ public class QigsawInstallerActivity extends Activity {
             }
             if (state.moduleNames().containsAll(mModuleNames) && mModuleNames.containsAll(state.moduleNames())) {
                 mStatus = state.status();
+                Log.d(TAG, "onStateUpdate state:"+mStatus);
                 switch (state.status()) {
                     case SplitInstallSessionStatus.REQUIRES_USER_CONFIRMATION:
                         onRequiresUserConfirmation(state);
