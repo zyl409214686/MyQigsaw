@@ -4,12 +4,10 @@
     package="com.tyh.qigsaw_feature">
 
     <dist:module
-        dist:onDemand="false"
+        dist:onDemand="true"
         dist:instant="false"
         dist:title="@string/title_qigsaw_feature">
-        <dist:delivery>
-            <dist:on-demand />
-        </dist:delivery>
+
         <dist:fusing dist:include="true" />
     </dist:module>
     <application>

@@ -5,6 +5,7 @@ import android.app.Application;
 import android.content.Context;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.util.Log;
 
 import com.iqiyi.android.qigsaw.core.Qigsaw;
 import com.iqiyi.android.qigsaw.core.SplitActivityLifecycleCallbacks;
@@ -55,9 +56,11 @@ public class App extends Application {
         Qigsaw.install(this, new SampleDownloader(), configuration);
     }
 
+    private static final String TAG = "App";
     @Override
     public void onCreate() {
         super.onCreate();
+        Log.d(TAG, " getPackageName():"+ getPackageName());
         Qigsaw.onApplicationCreated();
         //预加载  新版本没有了...
 //        Qigsaw.preloadInstalledSplits(Arrays.asList(QigsawConfig.DYNAMIC_FEATURES));

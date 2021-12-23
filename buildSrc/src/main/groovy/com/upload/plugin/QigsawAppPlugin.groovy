@@ -11,6 +11,7 @@ public class QigsawAppPlugin extends QigsawAppBasePlugin {
     @Override
     void apply(Project project) {
         super.apply(project)
+        print("test")
         SplitApkUploaderInstance.set(new SampleSplitApkUploader())
         project.extensions.create("splitUpload", SplitUploadExtension)
     }

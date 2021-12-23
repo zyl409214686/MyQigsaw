@@ -6,6 +6,10 @@ import org.gradle.api.Project
 
 class SampleSplitApkUploader implements SplitApkUploader {
 
+
+    public static final String FEATURE_FIRST = "https://eepaas-public.s3.cn-north-1.jdcloud-oss.com/qigsaw_feature-master.apk"
+    public static final String FEATURE_SECOND = "https://eepaas-public.s3.cn-north-1.jdcloud-oss.com/second_feature-master.apk"
+
     @Override
     String uploadSync(Project appProject, File splitApk, String splitName) throws SplitApkUploadException {
         List<String> testOnly = appProject.extensions.splitUpload.testOnly
@@ -26,8 +30,14 @@ class SampleSplitApkUploader implements SplitApkUploader {
      * Implement this method to upload split apks to your own server.
      */
     static String uploadSplitApk(File splitApk, String splitName, boolean useTestEnv) {
-        println("====Upload split " + splitName + " split apk file path: " + splitApk + " useTestEnv: " + useTestEnv)
+        println("====Upload split " + splitName + " split apk file path: " + splitApk + " useTestEnv: " + useTestEnv + " isExit:"+splitApk.exists())
+        switch (splitName){
+            case "qigsaw_feature":
+                return FEATURE_FIRST
+            case "second_feature":
+                return FEATURE_SECOND
+        }
         //todo::在这里实现上传逻辑
-        return "http://qvyrhs9ma.hn-bkt.clouddn.com/apk/second_feature-release.apk?e=1625814928&attname=&token=yTsDAOK294MphgquNxStddfBqdRlaFXtXy_peHmE:Pd4FBxw8nl6dbmBsFiCz5gRSWMU="
+        return FEATURE_FIRST
     }
 }

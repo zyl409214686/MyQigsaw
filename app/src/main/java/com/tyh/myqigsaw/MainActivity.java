@@ -16,6 +16,7 @@ import com.google.android.play.core.splitinstall.model.SplitInstallSessionStatus
 import com.google.android.play.core.tasks.OnFailureListener;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends BaseActivity {
     private static final String FISRT_FEATURE_ACTIVITY = "com.tyh.qigsaw_feature.FeatureActivity";
@@ -152,4 +153,28 @@ public class MainActivity extends BaseActivity {
         Log.e("===", message);
     }
 
+    public void uninstallFeature(View view) {
+
+        if (installManager.getInstalledModules().contains("qigsaw_feature")) {
+            ArrayList arrayList = new ArrayList();
+            arrayList.add("qigsaw_feature");
+            installManager.deferredUninstall(arrayList);
+            Toast.makeText(MainActivity.this, "qigsaw_feature uninstall success", Toast.LENGTH_SHORT).show();
+        }
+        else{
+            Toast.makeText(MainActivity.this, "qigsaw_feature is not exit", Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    public void uninstallSecond(View view) {
+        if (installManager.getInstalledModules().contains("second_feature")) {
+            ArrayList arrayList = new ArrayList();
+            arrayList.add("second_feature");
+            installManager.deferredUninstall(arrayList);
+            Toast.makeText(MainActivity.this, "second_feature uninstall success", Toast.LENGTH_SHORT).show();
+        }
+        else{
+            Toast.makeText(MainActivity.this, "second_feature is not exit", Toast.LENGTH_SHORT).show();
+        }
+    }
 }

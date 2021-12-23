@@ -1,37 +1,37 @@
 -- Merging decision tree log ---
 manifest
-ADDED from H:\as workspace\other\GitMyQisaw\downloader\src\main\AndroidManifest.xml:1:1-2:52
-INJECTED from H:\as workspace\other\GitMyQisaw\downloader\src\main\AndroidManifest.xml:1:1-2:52
-INJECTED from H:\as workspace\other\GitMyQisaw\downloader\src\main\AndroidManifest.xml:1:1-2:52
-INJECTED from H:\as workspace\other\GitMyQisaw\downloader\src\main\AndroidManifest.xml:1:1-2:52
-INJECTED from H:\as workspace\other\GitMyQisaw\downloader\src\main\AndroidManifest.xml:1:1-2:52
-INJECTED from H:\as workspace\other\GitMyQisaw\downloader\src\main\AndroidManifest.xml:1:1-2:52
-INJECTED from H:\as workspace\other\GitMyQisaw\downloader\src\main\AndroidManifest.xml:1:1-2:52
+ADDED from /Users/zouyuelong5/AndroidStudioProjects/plugin_research/MyQigsaw/downloader/src/main/AndroidManifest.xml:1:1-2:52
+INJECTED from /Users/zouyuelong5/AndroidStudioProjects/plugin_research/MyQigsaw/downloader/src/main/AndroidManifest.xml:1:1-2:52
+INJECTED from /Users/zouyuelong5/AndroidStudioProjects/plugin_research/MyQigsaw/downloader/src/main/AndroidManifest.xml:1:1-2:52
+INJECTED from /Users/zouyuelong5/AndroidStudioProjects/plugin_research/MyQigsaw/downloader/src/main/AndroidManifest.xml:1:1-2:52
+INJECTED from /Users/zouyuelong5/AndroidStudioProjects/plugin_research/MyQigsaw/downloader/src/main/AndroidManifest.xml:1:1-2:52
+INJECTED from /Users/zouyuelong5/AndroidStudioProjects/plugin_research/MyQigsaw/downloader/src/main/AndroidManifest.xml:1:1-2:52
+INJECTED from /Users/zouyuelong5/AndroidStudioProjects/plugin_research/MyQigsaw/downloader/src/main/AndroidManifest.xml:1:1-2:52
 	package
-		ADDED from H:\as workspace\other\GitMyQisaw\downloader\src\main\AndroidManifest.xml:2:5-49
-		INJECTED from H:\as workspace\other\GitMyQisaw\downloader\src\main\AndroidManifest.xml
-		INJECTED from H:\as workspace\other\GitMyQisaw\downloader\src\main\AndroidManifest.xml
+		ADDED from /Users/zouyuelong5/AndroidStudioProjects/plugin_research/MyQigsaw/downloader/src/main/AndroidManifest.xml:2:5-49
+		INJECTED from /Users/zouyuelong5/AndroidStudioProjects/plugin_research/MyQigsaw/downloader/src/main/AndroidManifest.xml
+		INJECTED from /Users/zouyuelong5/AndroidStudioProjects/plugin_research/MyQigsaw/downloader/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from H:\as workspace\other\GitMyQisaw\downloader\src\main\AndroidManifest.xml
-		ADDED from H:\as workspace\other\GitMyQisaw\downloader\src\main\AndroidManifest.xml:1:1-2:52
-		INJECTED from H:\as workspace\other\GitMyQisaw\downloader\src\main\AndroidManifest.xml
+		INJECTED from /Users/zouyuelong5/AndroidStudioProjects/plugin_research/MyQigsaw/downloader/src/main/AndroidManifest.xml
+		ADDED from /Users/zouyuelong5/AndroidStudioProjects/plugin_research/MyQigsaw/downloader/src/main/AndroidManifest.xml:1:1-2:52
+		INJECTED from /Users/zouyuelong5/AndroidStudioProjects/plugin_research/MyQigsaw/downloader/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from H:\as workspace\other\GitMyQisaw\downloader\src\main\AndroidManifest.xml
-		ADDED from H:\as workspace\other\GitMyQisaw\downloader\src\main\AndroidManifest.xml:1:1-2:52
-		INJECTED from H:\as workspace\other\GitMyQisaw\downloader\src\main\AndroidManifest.xml
+		INJECTED from /Users/zouyuelong5/AndroidStudioProjects/plugin_research/MyQigsaw/downloader/src/main/AndroidManifest.xml
+		ADDED from /Users/zouyuelong5/AndroidStudioProjects/plugin_research/MyQigsaw/downloader/src/main/AndroidManifest.xml:1:1-2:52
+		INJECTED from /Users/zouyuelong5/AndroidStudioProjects/plugin_research/MyQigsaw/downloader/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from H:\as workspace\other\GitMyQisaw\downloader\src\main\AndroidManifest.xml:1:11-69
+		ADDED from /Users/zouyuelong5/AndroidStudioProjects/plugin_research/MyQigsaw/downloader/src/main/AndroidManifest.xml:1:11-69
 uses-sdk
-INJECTED from H:\as workspace\other\GitMyQisaw\downloader\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from H:\as workspace\other\GitMyQisaw\downloader\src\main\AndroidManifest.xml
-INJECTED from H:\as workspace\other\GitMyQisaw\downloader\src\main\AndroidManifest.xml
-INJECTED from H:\as workspace\other\GitMyQisaw\downloader\src\main\AndroidManifest.xml
-INJECTED from H:\as workspace\other\GitMyQisaw\downloader\src\main\AndroidManifest.xml
+INJECTED from /Users/zouyuelong5/AndroidStudioProjects/plugin_research/MyQigsaw/downloader/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/zouyuelong5/AndroidStudioProjects/plugin_research/MyQigsaw/downloader/src/main/AndroidManifest.xml
+INJECTED from /Users/zouyuelong5/AndroidStudioProjects/plugin_research/MyQigsaw/downloader/src/main/AndroidManifest.xml
+INJECTED from /Users/zouyuelong5/AndroidStudioProjects/plugin_research/MyQigsaw/downloader/src/main/AndroidManifest.xml
+INJECTED from /Users/zouyuelong5/AndroidStudioProjects/plugin_research/MyQigsaw/downloader/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from H:\as workspace\other\GitMyQisaw\downloader\src\main\AndroidManifest.xml
-		ADDED from H:\as workspace\other\GitMyQisaw\downloader\src\main\AndroidManifest.xml
-		INJECTED from H:\as workspace\other\GitMyQisaw\downloader\src\main\AndroidManifest.xml
+		INJECTED from /Users/zouyuelong5/AndroidStudioProjects/plugin_research/MyQigsaw/downloader/src/main/AndroidManifest.xml
+		ADDED from /Users/zouyuelong5/AndroidStudioProjects/plugin_research/MyQigsaw/downloader/src/main/AndroidManifest.xml
+		INJECTED from /Users/zouyuelong5/AndroidStudioProjects/plugin_research/MyQigsaw/downloader/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from H:\as workspace\other\GitMyQisaw\downloader\src\main\AndroidManifest.xml
-		ADDED from H:\as workspace\other\GitMyQisaw\downloader\src\main\AndroidManifest.xml
-		INJECTED from H:\as workspace\other\GitMyQisaw\downloader\src\main\AndroidManifest.xml
+		INJECTED from /Users/zouyuelong5/AndroidStudioProjects/plugin_research/MyQigsaw/downloader/src/main/AndroidManifest.xml
+		ADDED from /Users/zouyuelong5/AndroidStudioProjects/plugin_research/MyQigsaw/downloader/src/main/AndroidManifest.xml
+		INJECTED from /Users/zouyuelong5/AndroidStudioProjects/plugin_research/MyQigsaw/downloader/src/main/AndroidManifest.xml
